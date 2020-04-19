@@ -1,4 +1,4 @@
-import gettingStartedWithLinux from "./gettingStartedWithAWS";
+import gettingStartedWithLinux from "./gettingStarted";
 
 (function main() {
   gettingStartedWithLinux();
