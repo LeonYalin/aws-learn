@@ -42,10 +42,12 @@ function AWSExtendedServices() {
     `);
 }
 
-function AWSToolsForDeveloper() {
+function AWSToolsForDevelopers() {
   logToHTML('' +
     `The tools a developer has got in order to manage the AWS are:
-    - Elastic Beanstalk (ELB) - a dashboard that helps automating deployments to EC2
+    - AWS Web Console - a browser AWS tool. It supports many features like users, groups, roles, regions, resource groups, billing dashboards & more...
+    - AWS SDK - SDKs to work with AWS services from the code. Available for many languages. For example, for nodejs it can be installed with npm.
+    - AWS CLI - a command line utility that provides tools for working with AWS from the terminal or writing shell scripts.
     `);
 }
 
@@ -54,5 +56,5 @@ export default function gettingStarted() {
   logF(whatIsAWS);
   logF(AWSCoreServices);
   logF(AWSExtendedServices);
-  logF(AWSToolsForDeveloper);
+  logF(AWSToolsForDevelopers);
 }
